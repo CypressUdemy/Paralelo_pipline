@@ -15,7 +15,7 @@ pipeline {
                         git url: 'https://github.com/CypressUdemy/Paralelo_pipline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key e0a41c7f-404a-4eb6-951d-54ba07a2dffa  --parallel'
+                        bat 'npx cypress run cypress run --record --key e0a41c7f-404a-4eb6-951d-54ba07a2dffa --parallel'
                     
                     }
                 }
@@ -28,7 +28,7 @@ pipeline {
                         git url: 'https://github.com/CypressUdemy/Paralelo_pipline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key e0a41c7f-404a-4eb6-951d-54ba07a2dffa  --parallel'
+                        bat 'npx cypress run cypress run --record --key e0a41c7f-404a-4eb6-951d-54ba07a2dffa --parallel'
                     
                     }
                 }
