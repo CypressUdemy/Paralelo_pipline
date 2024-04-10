@@ -14,7 +14,9 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     pageLoadTimeout:90000,
     video: true,
-    defaultCommandTimeout: 6000
+    defaultCommandTimeout: 6000,
+    experimentalStudio: true
+      
    
   },
 
